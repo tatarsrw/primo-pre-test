@@ -1,0 +1,12 @@
+/* ----------------------------------------------------------------------------------------------------- */
+/*  @ Main Tailwind file for injecting utilities.
+/* ----------------------------------------------------------------------------------------------------- */
+@tailwind utilities;
+html, body {
+    overflow-x: hidden;
+}
+.mat-button.mat-primary:not(.mat-button-disabled) .mat-icon, 
+.mat-icon-button.mat-primary:not(.mat-button-disabled) .mat-icon, 
+.mat-stroked-button.mat-primary:not(.mat-button-disabled) .mat-icon{
+    color: #FE709C !important;
+}
